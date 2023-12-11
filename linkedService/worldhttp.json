@@ -1,0 +1,13 @@
+{
+	"name": "worldhttp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/akgeoinsys/ltimindtree2023/main/casestudies/datasets/healthcare/worldometer_data.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
